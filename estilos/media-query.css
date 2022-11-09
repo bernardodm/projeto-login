@@ -8,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -20,6 +21,10 @@
         float: right;
         width: 70%;
     }
+
+    div#form > p {
+        margin: 10px 0px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -30,6 +35,7 @@
 
     section#login {
         width: 990px;
+        height: 380px;
     }
 
     section#login > div#imagem {
@@ -48,7 +54,8 @@
     }
     
     div#form > p {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin: 20px 0px;
     }
 }
 
